@@ -1,0 +1,2 @@
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", ATTRS{idVendor}=="1fb9", ATTRS{idProduct}=="0301", SYMLINK+="ttyLakeshore336"
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB*", ATTRS{idVendor}=="067b", ATTRS{idProduct}=="2303", SYMLINK+="ttyOutputRS232"
